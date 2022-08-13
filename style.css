@@ -1,0 +1,55 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+.container {
+  margin: 0;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-image: url(./mesa22.png);
+  background-size: 100%;
+  background-position: 100% -293px;
+  justify-content: center;
+  align-items: center;
+}
+.pao {
+  height: fit-content;
+  position: relative;
+  top: 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+.manteiga {
+  position: absolute;
+  height: fit-content;
+  position: relative;
+  top: 20%;
+  left: -504px;
+  justify-content: center;
+  align-items: center;
+}
+#manteiga {
+  opacity: 0;
+}
+#passaManteiga {
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  background-color: #44c767;
+  border-radius: 28px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+#passaManteiga:hover {
+  background-color: #5cbf2a;
+}

@@ -1,0 +1,30 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pão com Manteiga</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="pao"><img id="pao" src="./pao1.png" /></div>
+
+      <div class="manteiga"><img id="manteiga" src="./manteiga.png" /></div>
+    </div>
+    <div class="botao">
+      <button id="passaManteiga" onclick="passaManteiga()">
+        Passa Manteiga
+      </button>
+    </div>
+    <script>
+      function passaManteiga() {
+        if (document.getElementById("manteiga").style.opacity === "1") {
+          document.getElementById("manteiga").style.opacity = "0";
+        } else {
+          document.getElementById("manteiga").style.opacity = "1";
+        }
+      }
+    </script>
+  </body>
+</html>
